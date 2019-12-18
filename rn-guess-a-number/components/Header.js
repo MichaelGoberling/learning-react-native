@@ -1,7 +1,7 @@
-import React from "react";
-import { View, Text, StyleSheet } from "react-native";
+import React from 'react';
+import { View, Text, StyleSheet } from 'react-native';
 
-import Colors from "../constants/colors";
+import Colors from '../constants/colors';
 
 const Header = props => {
   return (
@@ -13,16 +13,17 @@ const Header = props => {
 
 const styles = StyleSheet.create({
   header: {
-    width: "100%",
+    width: '100%',
     height: 90,
     padding: 18,
     backgroundColor: Colors.primary,
-    alignItems: "center",
-    justifyContent: "flex-end"
+    alignItems: 'center',
+    justifyContent: 'flex-end'
   },
   headerTitle: {
-    color: "black",
-    fontSize: 18
+    color: 'black',
+    fontSize: 18,
+    fontFamily: 'open-sans-bold'
   }
 });
 
